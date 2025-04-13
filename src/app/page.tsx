@@ -8,7 +8,7 @@ export default function Home() {
    <div className="bg-gray-950">
     <Hero/>
     <About/>
-    <ImgCard/>
+    <ImgCard children ={"The blockchain-powered backbone for decentralized funding, governance, and tokenization. LIFE Protocol enables biotech projects to secure resources, engage communities, and maintain transparency."} hr={'/images/card/card1.png'}/>
    </div>
   );
 }

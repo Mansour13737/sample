@@ -15,7 +15,7 @@ export default function Hero() {
                     <span className="text-wrap lg:text-[18px] text-[14px] font-normal text-gray-400 lg:mr-[691px] mx-auto mb-[40px] ml-4 leading-[24px] mt-3">Empowering global innovation with decentralized funding, advanced AI, and transparent IP management. Join us in shaping the future of life sciences.</span>
                     <div className="mt-10 block lg:justify-between lg:items-center lg:flex lg:gap-[13px]">
                         <Input placeholder={'Enter your email to join the waitlist...'} />
-                        <Button children={"join the waitlist"} />
+                        <Button children={"join the waitlist"} className="px-5 lg:w-[150px] lg:h-[48px] w-screen bg-gradient-to-t mt-[13px] lg:mt-0 from-[#025099] to-[#0385FF] text-[14px] font-semibold text-white rounded-[8px] pt-[14px] pb-[15px]"/>
                     </div>
                 </div>
             <div className=" bg-cover bg-center  mr-[247.56px] absolute ml-[811.57px] h-[480.50px]">
