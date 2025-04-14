@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function KeyFeatures() {
     return (
-        <div className="mt-[15px]] bg-[rgba(245,245,245)] container px-4 flex flex-col justify-start items-center ">
+        <div className="mt-[15px]] bg-[rgba(245,245,245)] container px-4 flex flex-col justify-start items-center pb-[53px] ">
             <div className=" pt-[65px] flex flex-col items-center justify-start">
                 <span className="text-[#1680F9] w-fit lg:py-2 py-[6px] lg:px-4 px-4 text-[10px] lg:text-[14px] font-medium bg-[#0385FF33] text-wrap rounded-[20px]">ABOUT LIFE</span>
                 <h2 className="mt-[10px] mx-auto text-center text-[20px] font-semibold">Why Choose LIFE Protocol?</h2>
