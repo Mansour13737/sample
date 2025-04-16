@@ -10,6 +10,7 @@ export default function Hero() {
             <div className="flex justify-between w-screen">
                 <div className="container flex flex-col items-start lg:mt-[39px] mt-[240px] lg:p-y-0 mx-auto">
                     <span className="text-white/50 lg:py-2 py-1 lg:px-4 px-3 text-[10px] lg:text-[14px] ml-4 font-medium bg-gray-700 rounded-[20px]  ">Join the Revolution</span>
+                    <p className="text-white">Hello</p>
                     <span className="text-white font-semibold text-[32px] lg:text-[56px] text-wrap ml-4 mt-3 leading-[100%]">Revolutionizing Biotech</span>
                     <span className="text-white font-medium text-[30px] leading-[100%] lg:text-[56px] text-wrap ml-4">with Blockchain and AI</span>
                     <span className="text-wrap lg:text-[18px] text-[14px] font-normal text-gray-400 lg:mr-[691px] mx-auto mb-[40px] ml-4 leading-[24px] mt-3">Empowering global innovation with decentralized funding, advanced AI, and transparent IP management. Join us in shaping the future of life sciences.</span>
