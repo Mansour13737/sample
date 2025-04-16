@@ -27,7 +27,7 @@ export default function Hero() {
                 <Image src="/images/hero/mouse1.svg" width={24} height={24} alt="Mouse" />
                 <span className="py-[3px] hidden lg:block">Scroll down</span>
             </div>
-
+            <p>a test fo confilict</p>
         </div>
     )
 }
