@@ -1,18 +1,19 @@
-import Button from "./Button";
-
 type CardProps = {
-    children : React.ReactNode;
+    chld : React.ReactNode;
     hr :  React.ReactNode;
     head? : React.ReactElement;
-}
+    cls : string;
+    card:string;
+    para:string;
+}   
 
-export default function ImgCard ({children,hr,head}:CardProps) {
+export default function ImgCard ({chld,hr,head,cls,card,para}:CardProps) {
     return (
-        <div className="p-6 mx-4 rounded-[20px] border-2 border-white bg-white flex flex-col ">
-            <div className='w-full h-[310px] rounded-[16px] bg-cover bg-center' style={{ backgroundImage: `url(${hr})` }} />
+        <div className={card}>
+            <div className={cls} style={{ backgroundImage: `url(${hr})` }} />
             {head}
-            <p className="text-[#080C14] leading-[24px] text-[13px] text-left font-normal">
-            {children}
+            <p className={para}>
+            {chld}
             </p>
         </div>
     ) 

@@ -6,8 +6,7 @@ import RoadMap from "./sections/roadmap/page";
 
 export default function Home() {
   return (
-   <div className="bg-gray-950">
-    <h1>it is a sample commit</h1>
+   <div className="bg-gray-950 flex flex-col items-center w-[100%]">
     <Hero/>
     <Features/>
     <KeyFeatures/>

@@ -1,15 +1,15 @@
 type ButtonProps = {
-    children: React.ReactNode;       
+    chld: React.ReactNode;       
     onClick?: () => void;           
     className?: string;           
     disabled?: boolean;
     type?: "button" | "submit" | "reset";
   };
 
-export default function Button ({children,className} : ButtonProps) {
+export default function Button ({chld,className} : ButtonProps) {
     return (
         <button className={className}>
-            {children}
+            {chld}
         </button>
     )
 }

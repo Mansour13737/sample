@@ -4,7 +4,7 @@ type inputProps = {
 }
 
 
-export default function ({placeholder}: inputProps) {
+export default function Inp ({placeholder}: inputProps) {
     return (
         <input type='text'
         placeholder = {placeholder}
