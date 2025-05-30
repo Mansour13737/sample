@@ -15,9 +15,9 @@ export default function Features() {
                 <p className="text-white/50 lg:w-[850px] lg:text-[16px] text-justify indent-5 mt-[10px] lg:text-center text-[14px] leading-[24px] font-normal">LIFE Technologies is a global biotech ecosystem designed to bridge the gap between groundbreaking scientific research and real-world applications. By combining Web3 tools with advanced AI, we empower innovation, ensure transparency, and drive equitable access to life-saving solutions.</p>
             </div>
 
-            <div className=" lg:w-[1184px] lg:justify-center lg:items-center lg:flex justify-start items-center gap-4" >
+            <div className=" lg:w-[1184px] lg:justify-center  lg:items-center lg:flex justify-start  items-center gap-4" >
                 <ImgCard chld={"The blockchain-powered backbone for decentralized funding, governance, and tokenization. LIFE Protocol enables biotech projects to secure resources, engage communities, and maintain transparency."} hr={'/images/card/card1.png'} head={head} cls={'w-full h-[310px] lg:w-[504px] lg:h-[373px] rounded-[16px] bg-cover bg-center'} card={"p-6 lg:p-10 mx-4 lg:mx-0 lg:w-[584px] lg:h-[656px] rounded-[20px] border-2 border-white bg-white flex flex-col "} para={"text-[#080C14] lg:text-[16px] lg:font-normal leading-[24px] text-[13px] text-left font-normal"} />
-                <div className="lg:flex lg:flex-col lg:gap-[18px] ">
+                <div className="lg:flex lg:flex-col lg:gap-[18px] mt-4 flex gap-4 flex-col ">
                     <ImgCard chld={"Focused research hubs dedicated to developing specific biotech solutions, from seed-stage projects to patented products, all backed by LIFE Protocol’s funding and governance tools."} hr={'/images/card/card2.png'} cls={'w-full lg:w-[220px] lg:h-[240px] h-[373px] rounded-[16px] bg-cover bg-center'} card={"p-6 lg:gap-10 lg:p-10 mx-4 rounded-[20px] lg:w-[584px] lg:mx-0 lg:h-[320px] border-2 border-white bg-white lg:flex  "} para={"text-[#080C14] lg:text-[16px] lg:font-normal leading-[24px] text-[13px] lg:w-[244px] lg:leading-[30px] text-left font-normal"} />
                     <ImgCard chld={"A cutting-edge AI division providing data insights, licensing automation, and collaborative intelligence to accelerate research and commercialization."} hr={'/images/card/card3.png'} cls={'w-full h-[310px] rounded-[16px] bg-cover bg-center lg:w-[220px] lg:h-[240px]'} card={"p-6 lg:flex lg:gap-10 lg:p-10 mx-4 rounded-[20px] border-2 border-white bg-white lg:mx-0 lg:w-[584px] lg:h-[320px]"} para={"text-[#080C14] lg:text-[16px] lg:font-normal leading-[24px] text-[13px] lg:w-[244px] lg:leading-[30px] text-left font-normal"} />
                 </div>
@@ -26,7 +26,7 @@ export default function Features() {
                 <p className="text-6 font-semibold text-white text-center mt-[96px] lg:text-[40px] lg:font-bold">Discover Dur Ecosystem</p>
                 <p className="text-[14px] text-white text-center mt-3 lg:text-[16px] lg:font-normal">Learn how LIFE Technologies is driving the future of biotech innovation.</p>
             </div>
-            <div className="lg:flex lg:items-center lg:justify-center lg:gap-4 ">
+            <div className="lg:flex-row lg:items-center flex flex-col items-center lg:justify-center lg:gap-4 ">
                 <div className="w-[90%] pb-7 flex flex-col justify-start rounded-[12px] pt-4 items-center mt-8 lg:mt-[56px] bg-gradient-to-r from-[#2F1F17] via-[#7A4A2E] to-[#ECA262] rounded-3 lg:w-[384px] lg:h-[180px]">
                     <div className=" flex flex-col items-center  justify-start">
                         <Image src={'/images/features/Frame50.png'} width={152} height={48} alt="NotFound" />

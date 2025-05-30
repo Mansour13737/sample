@@ -15,9 +15,9 @@ export default function KeyFeatures() {
                 <p className="font-normal text-[12px] mt-4 leading-[18px] text-[#080C1499]/60">Empower biotech projects with community-driven funding, eliminating traditional bottlenecks and ensuring equitable access to resources.</p>
             </div>
             <div className="h-[218.23px] mt-8 relative w-full">
-                <Image className="rounded-[9.81px] top-0 left-[67.84px] absolute" src={'/images/keyFeatures/Frame18.png'} width={273} height={179.82} alt="Not Found" />
+                <Image className="rounded-[9.81px] top-0 left-[11px] lg:left-[67.84px] absolute " src={'/images/keyFeatures/Frame18.png'} width={273} height={179.82} alt="Not Found" />
                 <Image className="rounded-[9.81px] -bottom-[55px] -right-[20px] absolute" src={'/images/keyFeatures/Frame31.png'} width={130} height={130} alt="Not Found" />
-                <Image className="rounded-[9.81px] -bottom-[30px] -left-[0px] absolute" src={'/images/keyFeatures/Frame19.png'} width={230} height={180} alt="Not Found" />
+                <Image className="rounded-[9.81px] -bottom-[120px] lg:-bottom-[30px] -left-[0px] absolute" src={'/images/keyFeatures/Frame19.png'} width={230} height={180} alt="Not Found" />
             </div>
             <div className="mt-20">
                 <Icons src={"/images/keyFeatures/cryptocurrency-01.png"} width={24} height={24} className={'w-[56px] h-[56px] rounded-[20px] p-4'} />

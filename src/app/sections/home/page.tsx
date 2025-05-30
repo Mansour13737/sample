@@ -21,7 +21,7 @@ export default function Hero() {
                     </span>
                     <div className="mt-10 block lg:justify-between lg:items-center lg:flex lg:gap-[13px]">
                         <Input placeholder={'Enter your email to join the waitlist...'} />
-                        <Button children={"join the waitlist"} />
+                        <Button chld={"join the waitlist"} />
                     </div>
                 </div>
                 <div className="bg-cover bg-center mr-[247.56px] absolute ml-[811.57px] h-[480.50px]">
