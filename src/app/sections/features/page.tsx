@@ -29,16 +29,16 @@ export default function Features() {
             <div className="lg:flex-row lg:items-center flex flex-col items-center lg:justify-center lg:gap-4 ">
                 <div className="w-[90%] pb-7 flex flex-col justify-start rounded-[12px] pt-4 items-center mt-8 lg:mt-[56px] bg-gradient-to-r from-[#2F1F17] via-[#7A4A2E] to-[#ECA262] rounded-3 lg:w-[384px] lg:h-[180px]">
                     <div className=" flex flex-col items-center  justify-start">
-                        <Image src={'/images/features/Frame50.png'} width={152} height={48} alt="NotFound" />
+                        <Image src={'/images/features/Frame50.png'} width={152} height={48} alt="NotFound" loading="lazy" />
                         <p className="text-white/50 lg:w-[266px] text-[12px] text-center mt-3">Next-Generation Mosquito Repellent: Safe, Effective, and Sustainable.</p>
-                        <Image className="mt-4" src={'/images/features/Frame49.png'} width={86} height={24} alt="NotFound" />
+                        <Image className="mt-4" src={'/images/features/Frame49.png'} width={86} height={24} alt="NotFound" loading="lazy" />
                     </div>
                 </div>
                 <div className="w-[90%] pb-7 lg:pb-0 flex flex-col  justify-start rounded-[12px] pt-4 items-center mt-4 lg:mt-[56px] bg-gradient-to-r from-[#082C2A] via-[#1B4D47] to-[#3B7C6E] rounded-3 lg:w-[384px] lg:h-[180px]">
                     <div className=" flex flex-col items-center  justify-start">
-                        <Image src={'/images/features/Frame501.png'} width={152} height={48} alt="NotFound" />
+                        <Image src={'/images/features/Frame501.png'} width={152} height={48} alt="NotFound" loading="lazy" />
                         <p className="text-white/50 lg:w-[266px] text-[12px] text-center mt-3">transparency, and drive equitable access to life-saving solutions.</p>
-                        <Image className="mt-4" src={'/images/features/Frame49.png'} width={86} height={24} alt="NotFound" />
+                        <Image className="mt-4" src={'/images/features/Frame49.png'} width={86} height={24} alt="NotFound" loading="lazy"/>
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@ export default function Hero() {
                     </div>
                 </div>
             <div className=" bg-cover bg-center  mr-[247.56px] absolute ml-[811.57px] h-[480.50px]">
-                <Image src= {'/images/hero/Vector 1.png'} width={380.89} height={480.50} alt="No Picture"/>
+                <Image src= {'/images/hero/Vector 1.png'} width={380.89} height={480.50} alt="No Picture" loading="lazy"/>
             </div>
 
             </div>
