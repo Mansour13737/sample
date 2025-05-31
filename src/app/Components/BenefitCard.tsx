@@ -14,7 +14,7 @@ interface benefitProps {
 export default function BenefitCard (props : benefitProps) {
     return (
         <div className="mt-8 bg-white rounded-[20px] pb-[28px] px-10 flex flex-col justify-start pt-[28px] items-center container">
-            <Image src={props.src} width={40} height={40} alt="No Picture"/>
+            <Image src={props.src} width={40} height={40} alt="No Picture" loading="lazy"/>
             <span className="text-[24px] font-semibold">{props.title}</span>
             <div className="text-center">
                 <h2 className="font-medium text-[16px] mt-[48px] mb-2">{props.firstHeader}</h2>
